@@ -7,19 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## penggunaan pertama
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+saya telah melakukan menyelasaikan dan harus membuat configurasi awal pemakaian pada pengguna bar berikut langkah-langkahnya:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-clone aplikasi menggunakan git dekstop atw bisa download
+-buka file projek di dalam visul code,sublime,atom atw editor lainnya
+-buka terminal di dalam projek jika mengguakan git bash, jika menggunakan terminal biasa arahkan ke dalam file projek
+-lakukan "composer install"
+-sesudah composer install selesai jelankan "cp .env.example .env" atau "copy .env.example .env" (pilih salah satu)
+-lihat apakah file ".env" sudah ada di dalam file projek bila sudah ada jalan kan perintah "php artisan key:generate" untuk menambahkan ---file key di file ".env" di dalam file projek,lihat di dalam file ".env" pada bagian "APP_KEY=" sudah terisi dengan key.-
+-bila sudah dalam file projek terdapat file DB_pengarsipan lakukan export dengan menggunakan "XAMPP" atau pengelola database lainnya.
+-bila sudah bisa kembali ke terminal dan jalankan "php artisan db:seed".
+-selanjutnya buka projek dalam browser menggunakan "php artisan serve" atau menggunakan htdocs.
+-bila masuk ke tampilan login masukan email: admin@admin.com dengan password:password.
 
 ## Learning Laravel
 
