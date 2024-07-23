@@ -27,7 +27,7 @@
                                 <td>{{ $i++ }}</td>
                                 <td>{{ $keluar->name }}</td>
                                 <td>{{ $keluar->mobil }}</td>
-                                <td>{{ $keluar->  plat }}</td>
+                                <td>{{ $keluar->plat }}</td>
                                 <td>{{ \Carbon\Carbon::parse($keluar->tanggal_keluar)->format('d M Y') }}</td>
                             </tr>
                         @endforeach
